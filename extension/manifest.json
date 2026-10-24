@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "注文履歴CSVエクスポーター（Amazon.co.jp対応・非公式）",
+  "version": "1.0.0",
+  "description": "Amazon.co.jpの注文履歴を商品ごと（商品名・単価・数量・ご請求額）にCSV保存。データは外部に送信しません。",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "注文履歴をCSVに保存",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "short_name": "注文履歴CSV"
+}
