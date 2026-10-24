@@ -1,5 +1,5 @@
 // 寄付ページのURL（OFUSE・Buy Me a Coffee など）。空のままならリンクは表示されません。
-const DONATE_URL = '';
+const DONATE_URL = 'https://ofuse.me/5a63d51c';
 
 const $ = (id) => document.getElementById(id);
 const now = new Date();
